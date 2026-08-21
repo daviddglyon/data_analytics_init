@@ -1,1 +1,12 @@
-/data
+.gitignore
+# Ignorer le dossier data et tout son contenu
+/data/
+# Ignorer tous les fichiers CSV et Excel du projet
+*.csv
+*.xlsx
+# Ignorer les fichiers de configuration contenant des mots de passe
+.env
+secrets.json
+# Ignorer les dossiers système et cachés de Python
+__pycache__/
+.ipynb_checkpoints/
